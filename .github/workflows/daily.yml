@@ -1,7 +1,7 @@
 name: Daily Cross-Sectional Dispersion Run
 on:
   schedule:
-    - cron: "30 03* * 1-6"
+    - cron: "0 3 * * 1-6"  # Mon–Fri at 04:00 UTC
   workflow_dispatch:
 jobs:
   run:
